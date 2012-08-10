@@ -4,7 +4,6 @@ class CreateTractions < ActiveRecord::Migration
       t.string :name
       t.float :value
       t.string :idea
-
       t.timestamps
     end
   end
