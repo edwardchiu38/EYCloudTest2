@@ -1,5 +1,5 @@
 ReactionTraction::Application.routes.draw do
-  root :to => 'tractions#home'
+  root :to => 'tractions#index'
   resources :tractions
 
   # The priority is based upon order of creation:
